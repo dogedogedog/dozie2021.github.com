@@ -1,3 +1,36 @@
+body {
+    background: rgb(255, 255, 255);
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    font-family: 'Oleo Script', cursive;
+    text-align: left;
+    /* background: rgb(99, 39, 39); */
+}
+
+header.h1 {
+    font-size: medium;
+}
+
+header.h2 {
+    font-size: small;
+}
+
+main {
+    font-family: 'Oleo Script', cursive;
+    padding: 20px;
+}
+
+
+
 ol{
     list-style-type: none;
+}
+
+@media only screen and (min-width: 800px) {
+    main { display: flex; flex-wrap: wrap; }
+    section { flex: 1; }
+    header, footer {width: 100%; flex: 100%; }
 }
