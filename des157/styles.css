@@ -1,12 +1,14 @@
 body {
-    background: rgb(255, 255, 255);
-    width: 800px;
+    background: rgb(19, 4, 4);
+    /* width: 800px; */
     margin: auto;
 }
 
 header {
     font-family: 'Oleo Script', cursive;
     text-align: left;
+    padding: 5rem;
+    color: rgb(96, 68, 68);
     /* background: rgb(99, 39, 39); */
 }
 
@@ -20,17 +22,24 @@ header.h2 {
 
 main {
     font-family: 'Oleo Script', cursive;
-    padding: 20px;
+    padding: 10px;
+    display: flex;
+    
 }
 
+section {
+    border: black double 10px;
+    background: rgb(96, 68, 68);
+    padding: 1em;
+    margin: 2em;
+}
 
-
-ol{
+ul{
     list-style-type: none;
 }
 
-@media only screen and (min-width: 800px) {
+/* @media only screen and (min-width: 800px) {
     main { display: flex; flex-wrap: wrap; }
     section { flex: 1; }
     header, footer {width: 100%; flex: 100%; }
-}
+} */
